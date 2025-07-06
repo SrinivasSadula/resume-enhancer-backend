@@ -1,7 +1,7 @@
 {
   "name": "resume-enhancer-backend",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "resume-enhancer-backend api",
   "homepage": "https://github.com/SrinivasSadula/resume-enhancer-backend#readme",
   "bugs": {
     "url": "https://github.com/SrinivasSadula/resume-enhancer-backend/issues"
@@ -12,16 +12,16 @@
   },
   "license": "ISC",
   "author": "Srinivas Sadula",
-  "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "dependencies": {
     "body-parser": "^2.2.0",
     "cors": "^2.8.5",
-    "dotenv": "^17.0.1",
-    "express": "^5.1.0",
-    "openai": "^3.2.1"
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "openai": "^4.0.0"
   }
 }
